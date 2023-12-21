@@ -4,3 +4,22 @@
         margin-bottom: 40px;
     }
 }
+@media screen and (min-width:820px) {
+    .images_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img[alt="TheGazette"]{
+            width: 275px;
+            margin: 0;
+  
+        }  
+    } 
+}
+@media screen and (min-width:1200px) {
+    .images_header{
+        img[alt="TheGazette"]{
+            width: 334px;  
+        }   
+    }  
+}

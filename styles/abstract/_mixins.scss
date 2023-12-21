@@ -7,3 +7,7 @@
     left: 50%;
     translate: -50% -50% 0;
 }
+@mixin minmax($minsize){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($minsize, 1fr));
+}
