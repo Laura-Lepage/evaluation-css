@@ -16,11 +16,14 @@ main{
     
 .main_article{
     margin-top: 125px;
-    h1{
-        ???
-    }
+    // h1{
+    //     ???
+    // }
     .subtitle{
-        margin-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    p{
+        margin: 50px 0;
     }
     .button_hoverred{
         text-transform: uppercase;
@@ -48,8 +51,15 @@ main{
 
 
 // Section today
+.today{
+    .title_hr{
+        margin-bottom: 40px;
+    }
+}
 .today_article{
-    
+    margin-bottom: 45px;
+    .today_next{
+    margin-top: 20px;
     h2{
         font-size: 32px;
         font-weight: normal;
@@ -66,17 +76,19 @@ main{
     }
 
 }
+}
+
 
 @media screen and (min-width:820px){
     .today_article{
         display: flex;
-        
         .today_next{
             display: flex;
             flex-direction: column;
             align-items: start;
-            width: 200%;
+            width: 250%;
             margin-left: 20px;
+            margin-top: 0;
         }
         
     }
@@ -146,6 +158,12 @@ main{
 }
 
 .video_others_interviews{
+    display: grid;
+    @include minmax (300px);
+
+
+
+    
     .article{
         h3{
             font-weight: lighter;
@@ -195,9 +213,9 @@ main{
         }
     }
 }
-.aboutus_title{
+// .aboutus_title{
 
-}
+// }
 .sorthistory{
     margin-top: 75px;
     .content{
