@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -48,7 +50,7 @@ hr{
         @include transition;
         display: block;
         &:hover{
-            scale: 1.05;
+            scale: 1.1;
         }
     }
 }
@@ -79,6 +81,14 @@ hr{
         color: red;
         border: 1px solid red;
     }  
+}
+.typoplayfair_bold{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+
+}
+.typoplayfair{
+    font-family: 'Playfair Display', serif;
 }
 
 

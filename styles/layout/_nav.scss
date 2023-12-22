@@ -36,27 +36,20 @@
             display: flex;
             a{
                 text-transform: uppercase;
-                color: #000;
+                color: #555555;
                 padding: 10px 0;
-                font-weight: 500;
-                &:not(last-child){
-                    margin-right: 12px;
-                    @include transition;
-                    &:hover{
-                        color: red;
-                        
-
-                    }
+                font-weight: 550;
+                margin-right: 15px;
+                @include transition;
+                &:hover{
+                    color: red;
                 }
             }
             a:nth-of-type(8){
                 margin-left: auto;
                 color: #000;
-                
+                margin-right: 0;  
             }
-    
         }
-    }
-    
-    
+    }  
 }

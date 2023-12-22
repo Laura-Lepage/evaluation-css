@@ -5,9 +5,9 @@ form{
     input, textarea{
         background-color: $greybackgd;
         border: none;
-        padding: 14px;
+        padding: 17px 25px;
         margin-bottom: 15px;
-        font-size: 12px;
+        font-size: 14px;
 
     }
 }
@@ -19,6 +19,9 @@ form{
             background-color: red;
             color: #fff;
             text-transform: uppercase;
+            &:hover{
+                cursor: pointer;
+            }
         }
     } 
 }
@@ -28,6 +31,8 @@ form{
         a{
             text-align: center;
             border-width: 2px;
+            font-weight: 600;
+            letter-spacing: 1.1px;
             &:hover{
                 border-width: 2px;
             }

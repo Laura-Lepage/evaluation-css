@@ -4,7 +4,7 @@ footer{
     height: 100%;
     position: relative;
     &::before{
-        @include blackfilter_before;
+        @include blackfilter_before(0.7);
     }
 }
 .navigation{
@@ -25,11 +25,12 @@ footer{
         a:nth-of-type(1){
             color:#fff;
             font-size: 22px;
+            font-family: 'Playfair Display', serif;
             margin-bottom: 35px;
             font-weight: 500;
         }
         a:last-child{
-            margin-bottom: 60px;
+            margin-bottom: 60px;  
         }
         a:nth-of-type(n+2):hover{
             translate: 5px;
