@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin-top: 20px;
     font-family: Arial;
@@ -19,14 +22,12 @@ p{
 a{
     text-decoration: none;
 }
-
 hr{
     background-color:$lightgrey;
     height:1px;
     border: none;
     margin-top: 15px;
 }
-
 .red_title{
     text-transform: uppercase;
     background-color: red;
@@ -51,7 +52,6 @@ hr{
         }
     }
 }
-
 .title_hr20{
     margin-bottom: 40px;
     div{
@@ -69,14 +69,16 @@ hr{
 .button_hoverred{
     text-transform: uppercase;
     padding: 15px 30px;
-        @include transition;
-        span{
-            font-weight: bold;
-        }
-        &:hover{
-            color: red;
-            border: 1px solid red;
-        }  
+    color: #000;
+    border: 1px solid #000;
+    @include transition;
+    span{
+        font-weight: bold;
+    }
+    &:hover{
+        color: red;
+        border: 1px solid red;
+    }  
 }
 
 
